@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap&subset=latin-ext" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper" id="app">
+        <div class="player">
+
+            <div class="player__top">
+                <div class="player-cover__item">
+                    <img src="assets/capa.jpg" alt="">
+                </div>
+                <p class="album-info__track uppercase">
+                    Sailor Moon - Music Box SMS
+                </p>
+                <p class="album-info__name">Gênero - Aesthetic</p>
+            </div>
+            <div class="container-audio">
+                <audio controls controlsList="nodownload">
+                    <source src="assets/sailormoon.mp3" />
+                </audio>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
